@@ -5,33 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boas Práticas na Emissão da Carta de Correção AVELLOZ</title>
     <!-- Carregando Tailwind CSS para um estilo moderno e responsivo --><script src="https://cdn.tailwindcss.com"></script>
-    <!-- Configuração de cores e fonte --><style>
+    <!-- Configuração de cores e fonte (Paleta Profissional) --><style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f4f8; /* Fundo levemente azulado/neutro */
+            background-color: #f7f9fc; /* Fundo mais claro e frio */
         }
-        /* Definição de Cores Base: Azul Técnico e Laranja/Dourado de Destaque */
-        .color-primary { --tw-bg-opacity: 1; background-color: rgb(0 123 255 / var(--tw-bg-opacity)); } /* Azul Técnico */
-        .text-primary { color: #007bff; }
-        .color-highlight { color: #ff8c00; } /* Laranja/Dourado */
-        .bg-highlight { background-color: #ff8c00; }
+        /* Definição de Cores Base: Azul Técnico (Profundo) e Laranja/Dourado (Rico) */
+        .color-primary { --tw-bg-opacity: 1; background-color: #004488; } /* Azul Marinho Técnico */
+        .text-primary-dark { color: #004488; }
+        .color-highlight { color: #e89e00; } /* Dourado Rico */
+        .bg-highlight { background-color: #e89e00; }
         .infographic-container {
             width: 100%;
             max-width: 450px; /* Simula um formato vertical (1080x1920) */
             margin: 0 auto;
             min-height: 100vh;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
         .section-divider {
-            height: 4px;
-            background: linear-gradient(to right, #007bff, #ff8c00);
-            margin: 2rem 0;
+            height: 3px;
+            background: linear-gradient(to right, #004488, #e89e00);
+            margin: 2.5rem 0;
+            opacity: 0.8;
         }
         .card-data {
-            font-size: 1.125rem; /* text-lg */
-            font-weight: 600; /* font-semibold */
-            color: #1f2937; /* gray-800 */
+            font-size: 1.125rem;
+            font-weight: 700; /* Bolder */
+            color: #1f2937;
+        }
+        .checklist-item {
+            transition: transform 0.2s;
+            border-left-width: 5px;
         }
     </style>
 </head>
@@ -39,44 +44,44 @@
 
     <div class="infographic-container bg-white rounded-xl overflow-hidden">
 
-        <!-- HEADER / TÍTULO PRINCIPAL (COM ÍCONE DE MOTO) --><header class="color-primary text-white p-6 rounded-t-xl flex items-center justify-between">
+        <!-- HEADER / TÍTULO PRINCIPAL (DESIGN MAIS FORMAL) --><header class="color-primary text-white p-6 rounded-t-xl flex items-center justify-between">
             <div>
-                <h1 class="text-3xl font-extrabold mb-1">Carta de Correção AVELLOZ</h1>
-                <p class="text-lg font-light opacity-90">Boas Práticas para uma Emissão Impecável</p>
+                <h1 class="text-3xl font-extrabold mb-1 tracking-wider">CARTA DE CORREÇÃO AVELLOZ</h1>
+                <p class="text-lg font-light opacity-80">Guia de Boas Práticas e Referência Técnica</p>
             </div>
             <!-- Ícone de Moto --><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-motorcycle"><path d="M5 18H3c-1 0-2-.8-2-1.8v-2.4C1 12.8 2 12 3 12h3"/><path d="M12 20m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/><path d="M18 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M14 17h-2.5l-4.7-2.6L4 9h2l4 4 4.5 1.5L14 17Z"/><path d="M22 7H10"/><path d="M18 19c-2.3 0-3.6-.7-4-2"/><path d="M18 19c.7-2.5 1-6.5-.5-9.5-1.4-2.8-4-4.5-6.5-4.5-1.3 0-2.8.5-4 1.3"/></svg>
         </header>
 
-        <!-- SEÇÃO 1: CHECKLIST DE OURO (CENA 7) --><section class="p-6 md:p-8">
+        <!-- SEÇÃO 1: CHECKLIST DE OURO --><section class="p-6 md:p-8">
             <div class="flex items-center space-x-3 mb-6">
-                <!-- Icone de Quadro/Checklist --><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ff8c00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+                <!-- Icone de Quadro/Checklist --><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#e89e00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard-check"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
                 <h2 class="text-3xl font-bold color-highlight">Checklist de Ouro</h2>
             </div>
             
             <!-- Checklist em Formato Visual e Legível --><ul class="space-y-4">
-                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg border-l-4 border-primary">
-                    <span class="text-primary font-extrabold text-xl mt-0.5">☑</span>
+                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg checklist-item border-primary-dark border-solid">
+                    <span class="text-primary-dark font-extrabold text-xl mt-0.5">☑</span>
                     <div>
                         <p class="font-semibold text-gray-800">Conferir Potência, PBT e CMT</p>
                         <p class="text-sm text-gray-600">Essenciais para a emissão correta da CC-e, garantindo a precisão dos dados técnicos do veículo.</p>
                     </div>
                 </li>
-                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg border-l-4 border-primary">
-                    <span class="text-primary font-extrabold text-xl mt-0.5">☑</span>
+                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg checklist-item border-primary-dark border-solid">
+                    <span class="text-primary-dark font-extrabold text-xl mt-0.5">☑</span>
                     <div>
                         <p class="font-semibold text-gray-800">Usar o Nome Completo da Marca/Modelo</p>
                         <p class="text-sm text-gray-600">A exatidão da descrição é crucial para evitar rejeições e manter a conformidade legal.</p>
                     </div>
                 </li>
-                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg border-l-4 border-primary">
-                    <span class="text-primary font-extrabold text-xl mt-0.5">☑</span>
+                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg checklist-item border-primary-dark border-solid">
+                    <span class="text-primary-dark font-extrabold text-xl mt-0.5">☑</span>
                     <div>
                         <p class="font-semibold text-gray-800">Guardar Cópias Digitais da CC-e</p>
                         <p class="text-sm text-gray-600">Mantenha um arquivo organizado para auditorias futuras e histórico de correções.</p>
                     </div>
                 </li>
-                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg border-l-4 border-primary">
-                    <span class="text-primary font-extrabold text-xl mt-0.5">☑</span>
+                <li class="flex items-start space-x-3 bg-gray-50 p-3 rounded-lg checklist-item border-primary-dark border-solid">
+                    <span class="text-primary-dark font-extrabold text-xl mt-0.5">☑</span>
                     <div>
                         <p class="font-semibold text-gray-800">Revisar Antes de Emitir</p>
                         <p class="text-sm text-gray-600">Verificação final de todos os campos e do texto da correção antes de finalizar o processo.</p>
@@ -94,16 +99,16 @@
 
         <div class="section-divider"></div>
 
-        <!-- SEÇÃO 2: QUADRO TÉCNICO DE REFERÊNCIA (CONVERTIDO EM CARDS E REORDENADO) --><section class="p-6 md:p-8">
+        <!-- SEÇÃO 2: QUADRO TÉCNICO DE REFERÊNCIA (COM CARDS APRIMORADOS) --><section class="p-6 md:p-8">
             <div class="flex items-center space-x-3 mb-6">
-                <!-- Icone de Medidor/Engrenagem --><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#007bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
-                <h2 class="text-3xl font-bold text-primary">O Quadro Técnico (Dados de Correção)</h2>
+                <!-- Icone de Medidor/Engrenagem --><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#004488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+                <h2 class="text-3xl font-bold text-primary-dark">O Quadro Técnico (Dados de Correção)</h2>
             </div>
             
             <p class="text-sm text-gray-600 mb-6">Valores exatos a serem incluídos no corpo da Carta de Correção, por modelo:</p>
 
-            <!-- CARD AZ1 --><div class="bg-white border-2 border-primary rounded-xl p-4 mb-4 shadow-lg">
-                <h3 class="text-xl font-extrabold text-primary border-b pb-2 mb-3">AZ1</h3>
+            <!-- CARD AZ1 --><div class="bg-gray-50 rounded-xl p-4 mb-4 shadow-md border-t-4 border-gray-300">
+                <h3 class="text-xl font-extrabold text-primary-dark border-b pb-2 mb-3">AZ1</h3>
                 <div class="space-y-2 text-sm">
                     <p><span class="font-bold text-gray-600">Marca/Modelo:</span> <span class="card-data whitespace-nowrap">I/HAOJIAN AVELLOZ AZ1</span></p>
                     <p><span class="font-bold text-gray-600">Potência:</span> <span class="card-data text-gray-500">—</span></p>
@@ -112,8 +117,8 @@
                 </div>
             </div>
 
-            <!-- CARD AZ125 --><div class="bg-white border-2 border-primary rounded-xl p-4 mb-4 shadow-lg">
-                <h3 class="text-xl font-extrabold text-primary border-b pb-2 mb-3">AZ125</h3>
+            <!-- CARD AZ125 --><div class="bg-gray-50 rounded-xl p-4 mb-4 shadow-md border-t-4 border-gray-300">
+                <h3 class="text-xl font-extrabold text-primary-dark border-b pb-2 mb-3">AZ125</h3>
                 <div class="space-y-2 text-sm">
                     <p><span class="font-bold text-gray-600">Marca/Modelo:</span> <span class="card-data whitespace-nowrap">I/JINCHENG AVELLOZ AZ125</span></p>
                     <p><span class="font-bold text-gray-600">Potência:</span> <span class="card-data text-red-600">0</span></p>
@@ -122,8 +127,8 @@
                 </div>
             </div>
 
-            <!-- CARD AZ160 --><div class="bg-white border-2 border-primary rounded-xl p-4 mb-4 shadow-lg">
-                <h3 class="text-xl font-extrabold text-primary border-b pb-2 mb-3">AZ160</h3>
+            <!-- CARD AZ160 --><div class="bg-gray-50 rounded-xl p-4 mb-4 shadow-md border-t-4 border-gray-300">
+                <h3 class="text-xl font-extrabold text-primary-dark border-b pb-2 mb-3">AZ160</h3>
                 <div class="space-y-2 text-sm">
                     <p><span class="font-bold text-gray-600">Marca/Modelo:</span> <span class="card-data whitespace-nowrap">I/JINCHENG AVELLOZ AZ160</span></p>
                     <p><span class="font-bold text-gray-600">Potência:</span> <span class="card-data text-red-600">0</span></p>
@@ -135,9 +140,9 @@
             <p class="text-xs text-gray-500 mt-4 italic">*O campo 'Potência' para AZ125 e AZ160 deve ser corrigido para **0** (zero).</p>
         </section>
 
-        <!-- RODAPÉ E BRANDING --><footer class="mt-8 p-6 md:p-8 border-t border-gray-200 bg-gray-50 rounded-b-xl">
+        <!-- RODAPÉ E BRANDING --><footer class="mt-8 p-6 md:p-8 border-t border-gray-200 bg-gray-100 rounded-b-xl">
             <!-- Informação da Filial --><div class="text-center mb-3">
-                <span class="inline-block p-2 bg-gray-200 text-gray-500 font-bold text-base rounded-md border-2 border-dashed border-gray-400">
+                <span class="inline-block p-2 bg-gray-200 text-primary-dark font-extrabold text-base rounded-md border-2 border-dashed border-primary-dark">
                     Avelloz Motos - Agrestina - PE
                 </span>
             </div>
